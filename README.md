@@ -17,12 +17,12 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
 ### Phase 1: Spreadsheets & Data Hygiene (Excel)
 
 * **Session 1: Grid Mechanics & Table Basics**
-  * Cell formatting (`Ctrl + 1`), thousand separators, column autofit, and row/column navigation[cite: 1].
-  * Column shifting and hiding/unhiding ranges[cite: 3].
-  * Converted ranges into structured tables with dynamic Total Rows and conditional formatting[cite: 2, 3].
+  * Cell formatting (`Ctrl + 1`), thousand separators, column autofit, and row/column navigation.
+  * Column shifting and hiding/unhiding ranges.
+  * Converted ranges into structured tables with dynamic Total Rows and conditional formatting.
 
 * **Session 2: Freezing Panes & Multi-Level Sorting**
-  * Built and expanded a 5-column clinic cohort dataset to 15 records[cite: 3].
+  * Built and expanded a 5-column clinic cohort dataset to 15 records.
   * Pinned header context using Freeze Panes (`View` → `Freeze Top Row`).
-  * Executed multi-level sorting (`Department` A–Z, then `Age` descending)[cite: 3].
-  * Handled dynamic table aggregates (calculated mean cohort age: 42.87)[cite: 3].
+  * Executed multi-level sorting (`Department` A–Z, then `Age` descending).
+  * Handled dynamic table aggregates (calculated mean cohort age: 42.87).
