@@ -1,5 +1,3 @@
-# 180-sessions-of-data
-180-Session Data Analysis Challenge: Excel, SQL, Python &amp; BI.
 # 180-Session Data Analysis Journey
 
 Documenting 180 focused, 1-hour sessions building foundational to advanced data analytics skills from scratch.
