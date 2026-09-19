@@ -24,3 +24,8 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
   * Pinned header context using Freeze Panes (`View` → `Freeze Top Row`).
   * Executed multi-level sorting (`Department` A–Z, then `Age` descending).
   * Handled dynamic table aggregates (calculated mean cohort age: 42.87).
+
+* **Session 3: Formula Syntax & Basic Aggregations**
+  - Integrated a `Billing_Amount` numeric field into the cohort model.
+  - Implemented core aggregation functions: `=SUM()`, `=AVERAGE()`, `=MIN()`, and `=MAX()`.
+  - Built an isolated KPI summary table for clinical revenue metrics ($25,900 total revenue, $1,726.67 mean charge).
