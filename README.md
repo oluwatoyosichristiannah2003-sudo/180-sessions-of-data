@@ -29,3 +29,8 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
   - Integrated a `Billing_Amount` numeric field into the cohort model.
   - Implemented core aggregation functions: `=SUM()`, `=AVERAGE()`, `=MIN()`, and `=MAX()`.
   - Built an isolated KPI summary table for clinical revenue metrics ($25,900 total revenue, $1,726.67 mean charge).
+
+* **Session 4 (Sun, Sep 20, 2026): Data Auditing with Excel Counting Functions**
+  - Evaluated data integrity using `=COUNT()`, `=COUNTA()`, and `=COUNTBLANK()` across clinical cohort records.
+  - Implemented conditional logic using `=COUNTIF()` and `=COUNTIFS()` to isolate active inpatient records and department-level admissions.
+  - Audited missing discharge dates to identify unclosed clinical stays.
