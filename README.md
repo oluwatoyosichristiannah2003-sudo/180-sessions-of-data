@@ -34,3 +34,19 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
   - Evaluated data integrity using `=COUNT()`, `=COUNTA()`, and `=COUNTBLANK()` across clinical cohort records.
   - Implemented conditional logic using `=COUNTIF()` and `=COUNTIFS()` to isolate active inpatient records and department-level admissions.
   - Audited missing discharge dates to identify unclosed clinical stays.
+
+* **Session 5 (Mon, Sep 21, 2026): Cell Referencing Mechanics (Relative vs Absolute)**
+  - Mastered formula locking mechanics (`$`) toggled via `F4`.
+  - Built a calculated `Tax_Due` column referencing a static master tax rate cell (`$H$1` = 7.5%).
+  - Evaluated coordinate shift behavior: allowed relative row index movement (`F2` to `F16`) while pinning lookup anchors (`$H$1`).
+  - Total cohort billing: $25,900.00 | Total tax generated: $1,942.50.
+
+* **Session 6 (Tue, Sep 22, 2026): Proportions, Rates & Percentage Modeling**
+  - Modeled Chandoo's 5 core percentage scenarios across a 15-patient clinical cohort:
+    1. Proportion of Total: `=Part / $Total$` (verified grand sum = 100.00%).
+    2. % Change / Variance: `=(Current - Previous) / Previous`.
+    3. Target Attainment: `=Current / Target`.
+    4. Rate Application (+5% Fee Adjustment): `=Current * (1 + $Rate$)`.
+    5. Discount Reduction (-10% Insurance Adjustment): `=Current * (1 - $Rate$)`.
+  - Applied absolute cell referencing (`$`) to lock static total and rate parameters across row operations.
+  - Cohort baseline: $25,900.00 | Adjusted (+5%): $27,195.00 | Discounted (-10%): $23,310.00.
