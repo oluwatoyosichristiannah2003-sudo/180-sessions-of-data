@@ -52,12 +52,12 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
   - Cohort baseline: $25,900.00 | Adjusted (+5%): $27,195.00 | Discounted (-10%): $23,310.00.
 * **Session 7 (Wed, Sep 23, 2026): Systems Engineering – Dynamic Atomic Habit Tracker**
   - Engineered an interactive daily accountability dashboard modeled on James Clear's *Atomic Habits* principles.
-  - Tracked 10 keystone systems across spiritual, physical, academic, and professional pillars with defined baseline floors[cite: 4].
+  - Tracked 10 keystone systems across spiritual, physical, academic, and professional pillars with defined baseline floors.
   - Excel Mechanics Applied:
-    - Form control checkboxes mapped to dynamic boolean evaluation cells (`TRUE`/`FALSE`)[cite: 4].
-    - Aggregate check-in counts using `=COUNTIF()`[cite: 4].
-    - Monthly completion rate modeling: `=TOTAL / Days` formatted as percentage attainment[cite: 4].
-    - Summary KPI cards tracking active habits against an 85% target threshold[cite: 4].
+    - Form control checkboxes mapped to dynamic boolean evaluation cells (`TRUE`/`FALSE`).
+    - Aggregate check-in counts using `=COUNTIF()`.
+    - Monthly completion rate modeling: `=TOTAL / Days` formatted as percentage attainment.
+    - Summary KPI cards tracking active habits against an 85% target threshold.
   - Deliverable: `atomic-habit-systems-tracker.xlsx`
 
 * **Session 8 (Thu, Sep 24, 2026): Logical Conditions & The IF Function**
@@ -67,7 +67,7 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
   - Audited boundary values (Age 64 vs 65) via `=COUNTIF()`: 7 Seniors, 8 Adults across 15 cohort records.
   - Deliverable: `Session-08-Logical-IF-Function.xlsx`
  
-  - * **Session 9 (Fri, Sep 25, 2026): Multi-Tier Branching (=IFS & Nested IF)**
+  * **Session 9 (Fri, Sep 25, 2026): Multi-Tier Branching (=IFS & Nested IF)**
   - Explored sequential boolean logic evaluation across multi-category clinical thresholds.
   - Contrasted legacy Nested `IF` syntax against modern `=IFS()` linear pair evaluation.
   - Implemented directional sequencing (lowest-to-highest) to categorize patient `Systolic_BP`:
