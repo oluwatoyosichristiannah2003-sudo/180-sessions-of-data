@@ -66,3 +66,12 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
   - Implemented categorical segmentation: `=IF(C2>=65, "Senior", "Adult")`.
   - Audited boundary values (Age 64 vs 65) via `=COUNTIF()`: 7 Seniors, 8 Adults across 15 cohort records.
   - Deliverable: `Session-08-Logical-IF-Function.xlsx`
+ 
+  - * **Session 9 (Fri, Sep 25, 2026): Multi-Tier Branching (=IFS & Nested IF)**
+  - Explored sequential boolean logic evaluation across multi-category clinical thresholds.
+  - Contrasted legacy Nested `IF` syntax against modern `=IFS()` linear pair evaluation.
+  - Implemented directional sequencing (lowest-to-highest) to categorize patient `Systolic_BP`:
+    `=IFS(D2<120, "Normal", D2<=129, "Elevated", D2>=130, "High")`
+  - Evaluated boundary evaluation order to eliminate overlapping range bugs: prevented early false-positive triggers by testing `<120` prior to `<=129`.
+  - Audited 15-patient cohort distributions via `=COUNTIF()`: 4 Normal, 5 Elevated, 6 High.
+  - Deliverable: `Session-09-Multi-Tier-IFS.xlsx`
