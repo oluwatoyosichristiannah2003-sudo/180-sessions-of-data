@@ -75,3 +75,14 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
   - Evaluated boundary evaluation order to eliminate overlapping range bugs: prevented early false-positive triggers by testing `<120` prior to `<=129`.
   - Audited 15-patient cohort distributions via `=COUNTIF()`: 4 Normal, 5 Elevated, 6 High.
   - Deliverable: `Session-09-Multi-Tier-IFS.xlsx`
+
+* **Session 10 (Sat, Sep 26, 2026): Compound Boolean Logic (=AND, =OR)**
+  - Learned how to check multiple conditions simultaneously inside an `=IF()` statement.
+  - Implemented strict rule matching with `=AND()` where all tests must be true:
+    - Formula: `=IF(AND(C2>=65, D2>=130), "High Risk", "Standard")`
+    - Flagged patients only if they were 65+ and had systolic blood pressure of 130 or higher (5 flagged).
+  - Implemented flexible rule matching with `=OR()` where meeting any one test is enough:
+    - Formula: `=IF(OR(E2="Emergency", D2>=140), "Urgent", "Routine")`
+    - Flagged patients if they were in the Emergency department or had blood pressure of 140 or higher (6 flagged).
+  - Verified outputs across all 15 patient records using `=COUNTIF()` to ensure no criteria were misclassified.
+  - Deliverable: `Session-10-Compound-Logic-AND-OR.xlsx`
