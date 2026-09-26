@@ -58,14 +58,12 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
     - Aggregate check-in counts using `=COUNTIF()`.
     - Monthly completion rate modeling: `=TOTAL / Days` formatted as percentage attainment.
     - Summary KPI cards tracking active habits against an 85% target threshold.
-  - Deliverable: `atomic-habit-systems-tracker.xlsx`
 
 * **Session 8 (Thu, Sep 24, 2026): Logical Conditions & The IF Function**
   - Focused on single-condition boolean evaluation: `=IF(logical_test, value_if_true, value_if_false)`.
   - Tested comparative evaluation rules (`>=`, `<`, `<>`) to classify patient demographics without manual sorting.
   - Implemented categorical segmentation: `=IF(C2>=65, "Senior", "Adult")`.
   - Audited boundary values (Age 64 vs 65) via `=COUNTIF()`: 7 Seniors, 8 Adults across 15 cohort records.
-  - Deliverable: `Session-08-Logical-IF-Function.xlsx`
  
   * **Session 9 (Fri, Sep 25, 2026): Multi-Tier Branching (=IFS & Nested IF)**
   - Explored sequential boolean logic evaluation across multi-category clinical thresholds.
@@ -74,7 +72,6 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
     `=IFS(D2<120, "Normal", D2<=129, "Elevated", D2>=130, "High")`
   - Evaluated boundary evaluation order to eliminate overlapping range bugs: prevented early false-positive triggers by testing `<120` prior to `<=129`.
   - Audited 15-patient cohort distributions via `=COUNTIF()`: 4 Normal, 5 Elevated, 6 High.
-  - Deliverable: `Session-09-Multi-Tier-IFS.xlsx`
 
 * **Session 10 (Sat, Sep 26, 2026): Compound Boolean Logic (=AND, =OR)**
   - Learned how to check multiple conditions simultaneously inside an `=IF()` statement.
@@ -85,4 +82,3 @@ Documenting 180 focused, 1-hour sessions building foundational to advanced data 
     - Formula: `=IF(OR(E2="Emergency", D2>=140), "Urgent", "Routine")`
     - Flagged patients if they were in the Emergency department or had blood pressure of 140 or higher (6 flagged).
   - Verified outputs across all 15 patient records using `=COUNTIF()` to ensure no criteria were misclassified.
-  - Deliverable: `Session-10-Compound-Logic-AND-OR.xlsx`
